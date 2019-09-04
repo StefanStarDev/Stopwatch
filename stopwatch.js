@@ -28,7 +28,7 @@ function stopwatch() {
 
         stopBtn.addEventListener("click", () => {
 
-            document.getElementById(SELECTORS.time).textContent
+            
             clearTimeout(interval)
             startBtn.disabled = false
             stopBtn.disabled = true
